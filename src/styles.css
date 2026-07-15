@@ -64,7 +64,7 @@ h1 span, h2 span { color: var(--purple); }
 
 .hero { min-height: 920px; display: grid; grid-template-columns: 1fr minmax(380px, .8fr); align-items: center; padding: 110px max(7vw, 42px) 90px; overflow: visible; }
 .hero::after { content: ""; position: absolute; left: 4%; right: 4%; bottom: 42px; height: 1px; background: linear-gradient(90deg, transparent, var(--line), transparent); }
-.hero-copy { position: relative; z-index: 5; max-width: 700px; padding-left: 5vw; }
+.hero-copy { position: relative; z-index: 5; max-width: 700px; padding-left: 1.5vw; }
 .hero-copy .lead { max-width: 580px; margin: 24px 0 28px; }
 .hero-actions { display: flex; align-items: center; gap: 26px; flex-wrap: wrap; }
 .scroll-cue { display: inline-flex; align-items: center; gap: 12px; margin-top: 48px; color: var(--muted); font-size: 11px; letter-spacing: .12em; }
