@@ -1,0 +1,29 @@
+{
+  "owner": {
+    "name": "Ezz Eldin",
+    "title": "Graphic & UI/UX Designer",
+    "email": "ezz.ali9939@gmail.com",
+    "phoneDisplay": "+20 1044237939",
+    "phoneE164": "+201044237939",
+    "location": "Alexandria, Egypt"
+  },
+  "social": {
+    "linkedin": "https://www.linkedin.com/in/ez-ali-7466323a2",
+    "instagram": "https://www.instagram.com/ez.ali0?igsh=MXZoNTZxOWt6eGE4OQ=="
+  },
+  "fonts": {
+    "headings": "Orbitron / Outfit",
+    "body": "Outfit",
+    "delivery": "Google Fonts CDN with local fallbacks"
+  },
+  "architecture": {
+    "type": "Fluid single-page portfolio",
+    "sections": ["Home", "About", "Service", "Contact"],
+    "stack": ["HTML5", "CSS3", "Modern JavaScript", "Vite"]
+  },
+  "contactForm": {
+    "mode": "mailto fallback",
+    "destination": "ezz.ali9939@gmail.com",
+    "note": "Connect Formspree, Web3Forms, EmailJS, or a custom API for server-side submissions without opening the visitor's email application."
+  }
+}

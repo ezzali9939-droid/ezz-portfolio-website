@@ -1,0 +1,22 @@
+Page: About
+Section: Tools I Use Everyday
+
+Small label:
+TOOLS I USE EVERYDAY
+
+Tool cards:
+Photoshop
+Illustrator
+InDesign
+Figma
+Adobe XD
+VS Code
+Vercel
+GitHub
+Webflow
+Lightroom
+
+Important:
+The tools section must use exactly 10 cards.
+All cards must have the same size.
+Use clean off-white cards with soft shadows and purple highlight details.

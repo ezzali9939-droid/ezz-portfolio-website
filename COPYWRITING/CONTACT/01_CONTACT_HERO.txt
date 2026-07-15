@@ -1,0 +1,36 @@
+Page: Contact
+Section: Hero
+
+Logo:
+EZ ALI
+
+Navbar:
+Home
+About
+Service
+Contact
+
+Small label:
+GET IN TOUCH
+
+Main title:
+CONTACT
+
+Headline:
+LET'S BUILD SOMETHING
+EXTRAORDINARY.
+
+Body:
+I'm always open to discussing new opportunities, creative projects, and collaborations. Let's connect and turn your ideas into powerful digital experiences.
+
+Button:
+LET'S TALK
+
+Feature cards:
+FAST RESPONSE — Usually within 24 hours
+FREELANCE AVAILABLE — Open for new projects
+COLLABORATIONS WELCOME — Let's create something great
+FLEXIBLE SCHEDULE — Working across time zones
+
+Important:
+Hero uses robot hand image, mirrored toward the left.

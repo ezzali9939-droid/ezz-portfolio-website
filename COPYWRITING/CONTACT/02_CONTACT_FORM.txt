@@ -1,0 +1,30 @@
+Page: Contact
+Section: Let's Connect
+
+Small label:
+LET'S CONNECT
+
+Heading:
+I'D LOVE TO HEAR
+FROM YOU
+
+Body:
+Have a project in mind or just want to say hello?
+Fill out the form or reach me directly through any of the channels below.
+
+Contact cards:
+EMAIL — ezz.ali9939@gmail.com
+PHONE — +20 01044237939
+LOCATION — Alexandria, Egypt
+AVAILABILITY — Open for Projects
+RESPONSE TIME — Usually within 24 hours
+
+
+Form fields:
+YOUR NAME — Enter your name
+EMAIL ADDRESS — Enter your email
+SUBJECT — What's this about?
+MESSAGE — Tell me about your project...
+
+Button:
+SEND MESSAGE

@@ -1,0 +1,60 @@
+Page: Home
+Section: About Preview
+
+Number:
+02
+
+Small label:
+WHO I AM
+
+Title:
+ABOUT ME
+
+Body:
+Built by curiosity.
+Focused by craft.
+Driven by impact & ideas.
+
+CTA:
+VIEW MORE
+
+
+Page: Home
+Section: Services Preview
+
+Number:
+03
+
+Small label:
+WHAT I DO
+
+Title:
+SERVICES
+
+Body:
+Design solutions that transform ideas into brands & results.
+
+Service labels:
+BRANDING & IDENTITY
+UI / UX DESIGN
+PRINT DESIGN
+DIGITAL PRODUCTS
+
+
+Page: Home
+Section: Contact Preview
+
+Number:
+04
+
+Small label:
+LET'S CONNECT
+
+Title:
+CONTACT ME
+
+Body:
+I'm always open to new ideas, collaborations, & opportunities to bring you.
+
+CTA:
+Arrow button

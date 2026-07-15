@@ -1,0 +1,55 @@
+Page: Contact
+Section: Direct Channels
+
+Small label:
+DIRECT CHANNELS
+
+Heading:
+CONNECT WITH ME
+
+Body:
+Find me on these platforms or drop an email directly.
+
+Cards:
+INSTAGRAM — https://www.instagram.com/ez.ali0?igsh=MXZoNTZxOWt6eGE4OQ==
+LINKEDIN — https://www.linkedin.com/in/ez-ali-7466323a2
+EMAIL — ezz.ali9939@gmail.com
+
+
+
+Page: Contact
+Section: Let's Create Together
+
+Small label:
+LET'S CREATE TOGETHER
+
+Heading:
+OPEN FOR PROJECTS & COLLABORATIONS
+
+Body:
+I partner with ambitious brands and individuals to craft digital experiences that are not only beautiful but also strategic and results-driven.
+
+Tags:
+UI/UX Design
+Web Development
+Creative Direction
+Branding & Identity
+
+Dark card:
+LET'S TURN YOUR IDEA INTO IMPACT.
+Great ideas deserve great execution.
+Let's build something meaningful together.
+
+
+Footer:
+EZ ALI
+Crafting digital experiences that inspire, engage, and deliver results.
+
+LET'S BUILD SOMETHING
+MEANINGFUL TOGETHER.
+
+Social icons:
+Instagram — https://www.instagram.com/ez.ali0?igsh=MXZoNTZxOWt6eGE4OQ==
+LinkedIn — https://www.linkedin.com/in/ez-ali-7466323a2
+Email
+

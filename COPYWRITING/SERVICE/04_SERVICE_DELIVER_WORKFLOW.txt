@@ -1,0 +1,65 @@
+Page: Service
+Section: What I Deliver
+
+Small label:
+WHAT I DELIVER
+
+Heading:
+RESULTS THAT MATTER
+
+Body:
+More than just design — I deliver real impact.
+
+Stats:
+200+ PROJECTS COMPLETED
+100+ HAPPY CLIENTS
+7+ YEARS OF EXPERIENCE
+50+ BRANDS WORKED WITH
+15+ INDUSTRIES SERVED
+100% PASSION & DEDICATION
+
+
+Page: Service
+Section: Worked With
+
+Small label:
+I'VE WORKED WITH
+
+Heading:
+BRANDS I'VE WORKED WITH
+
+Brand examples:
+Bite Right
+Dr. Al Ameen
+Steel Gate Construction
+ISIGMA Solutions
+Void Studio
+Plantify
+Pro Gym
+
+
+Page: Service
+Section: My Workflow
+
+Small label:
+MY PROCESS
+
+Heading:
+MY WORKFLOW
+
+Body:
+A clear process that turns ideas into real value every time.
+
+Steps:
+01 DISCOVER — Understanding your goals and audience.
+02 CREATE — Brainstorming and concept development.
+03 DESIGN — Designing tailored visuals with care.
+04 DEVELOP — Bringing it all to life precisely.
+05 DELIVER — Delivering the final product with impact.
+
+
+Footer:
+EZ ALI
+LET'S WORK TOGETHER
+LET'S TALK
+Follow me

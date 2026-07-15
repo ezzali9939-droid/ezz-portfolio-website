@@ -1,0 +1,627 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Ezz Eldin — Graphic Designer and UI/UX Designer creating powerful visual identities and digital experiences." />
+    <meta name="theme-color" content="#07050d" />
+    <title>Ezz Eldin — Graphic & UI/UX Designer</title>
+    <link rel="icon" type="image/png" href="/assets/logo/main-logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <canvas id="space-canvas"></canvas>
+    <div class="cursor-glow" aria-hidden="true"></div>
+    <div class="noise" aria-hidden="true"></div>
+
+    <header class="site-header" id="site-header">
+      <a class="brand" href="#home" aria-label="Ezz Eldin home">
+        <img src="/assets/logo/symbol-white.png" alt="Ezz Eldin symbol" />
+        <span><strong>EZZ ELDIN</strong><small>Graphic & UI/UX Designer</small></span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+        <img src="/assets/icons/ui/menu.png" alt="" />
+      </button>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <a class="active" href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#service">Service</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <a class="hud-button header-cta" href="#contact">LET'S TALK <span>↗</span></a>
+    </header>
+
+    <main>
+      <div id="home-view" class="page-view">
+        <section class="hero section-dark" id="home" data-section="home">
+        <div class="ambient ambient-one"></div>
+        <div class="ambient ambient-two"></div>
+        <img class="circuit circuit-left" src="/assets/effects/circuit-lines.png" alt="" aria-hidden="true" />
+        <img class="dots dots-right" src="/assets/effects/dots.png" alt="" aria-hidden="true" />
+
+        <div class="side-socials" aria-label="Social links">
+          <a href="https://www.instagram.com/ez.ali0?igsh=MXZoNTZxOWt6eGE4OQ==" target="_blank" rel="noreferrer">IG</a>
+          <a href="https://www.linkedin.com/in/ez-ali-7466323a2" target="_blank" rel="noreferrer">IN</a>
+        </div>
+
+        <div class="hero-copy reveal">
+          <p class="eyebrow">CREATIVE DESIGNER</p>
+          <h1>I DESIGN<br />VISUALS THAT<br />SPEAK <span>POWER.</span></h1>
+          <p class="lead">I create powerful visual narratives that amplify brands and turn ideas into unforgettable experiences.</p>
+          <div class="hero-actions">
+            <a class="hud-button hud-button-solid" href="#about">EXPLORE MY WORLD <span>→</span></a>
+            <a class="text-link" href="#service">VIEW SERVICES</a>
+          </div>
+          <a class="scroll-cue" href="#creative-core"><span>↓</span> SCROLL TO EXPLORE</a>
+        </div>
+
+        <div class="hero-visual reveal" data-parallax="0.018">
+          <div class="scan-orbit"></div>
+          <div class="hero-glow"></div>
+          <img class="hero-robot page-hero-robot" src="/assets/robots/home.png" alt="Glossy black futuristic robot with purple light details" />
+          <div class="hud-marker marker-one"><span></span> VISUAL SYSTEM</div>
+          <div class="hud-marker marker-two"><span></span> CREATIVE MODE</div>
+        </div>
+
+        <div class="hero-tags reveal">
+          <span>BRANDING & IDENTITY</span>
+          <span>UI/UX & WEB DESIGN</span>
+          <span>CREATIVE THINKING</span>
+        </div>
+      </section>
+
+      <section class="creative-core section-dark" id="creative-core">
+        <div class="section-shell core-shell hud-frame reveal">
+          <div>
+            <p class="eyebrow">CREATIVE CORE / MY WHY</p>
+            <h2>SHAPING IDEAS INTO<br /><span>VISUAL IMPACT.</span></h2>
+          </div>
+          <div class="value-grid">
+            <article class="value-card">
+              <img src="/assets/icons/services/01_brand_identity.png" alt="" />
+              <h3>STRATEGY</h3><p>Purpose-driven foundations built around real goals.</p>
+            </article>
+            <article class="value-card">
+              <img src="/assets/icons/services/02_ui_ux_design.png" alt="" />
+              <h3>CREATIVITY</h3><p>Original ideas shaped into memorable experiences.</p>
+            </article>
+            <article class="value-card">
+              <img src="/assets/icons/services/03_social_media_design.png" alt="" />
+              <h3>IMPACT</h3><p>Design decisions that drive clear outcomes.</p>
+            </article>
+            <article class="value-card">
+              <img src="/assets/icons/services/05_print_design.png" alt="" />
+              <h3>QUALITY</h3><p>Precision in every pixel, surface, and interaction.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="preview-stack section-dark" aria-label="Page previews">
+        <a class="page-preview preview-light reveal" href="#about">
+          <div class="preview-number">02</div>
+          <div class="preview-copy"><p class="eyebrow">WHO I AM</p><h2>ABOUT ME</h2><p>Built by curiosity. Focused by craft. Driven by impact and ideas.</p><span>VIEW MORE →</span></div>
+          <img src="/assets/robots/about.png" alt="Robot facing away" />
+        </a>
+        <a class="page-preview preview-dark reveal" href="#service">
+          <div class="preview-number">03</div>
+          <div class="preview-copy"><p class="eyebrow">WHAT I DO</p><h2>SERVICES</h2><p>Design solutions that transform ideas into brands and results.</p><span>EXPLORE SERVICES →</span></div>
+          <img src="/assets/robots/service.png" alt="Robot profile" />
+        </a>
+        <a class="page-preview preview-light reveal" href="#contact">
+          <div class="preview-number">04</div>
+          <img class="preview-contact-image" src="/assets/robots/contact.png" alt="Robot hand pointing" />
+          <div class="preview-copy preview-copy-right"><p class="eyebrow">LET'S CONNECT</p><h2>CONTACT ME</h2><p>I'm open to new ideas, collaborations, and opportunities.</p><span>START A PROJECT →</span></div>
+        </a>
+      </section>
+
+      <section class="home-journey section-light">
+        <div class="section-shell reveal">
+          <div class="section-heading compact"><p class="eyebrow">MY JOURNEY</p><h2>FROM CURIOSITY TO <span>CREATIVE SYSTEMS.</span></h2></div>
+          <div class="timeline horizontal-timeline">
+            <article>
+              <div class="timeline-meta">
+                <svg class="timeline-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12.01" y2="18"></line></svg>
+                <b>2018</b>
+              </div>
+              <span>STARTED</span>
+              <p>Exploring Design & Chaos</p>
+            </article>
+            <article>
+              <div class="timeline-meta">
+                <svg class="timeline-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="21" x2="4" y2="14"></line><line x1="4" y1="10" x2="4" y2="3"></line><line x1="12" y1="21" x2="12" y2="12"></line><line x1="12" y1="8" x2="12" y2="3"></line><line x1="20" y1="21" x2="20" y2="16"></line><line x1="20" y1="12" x2="20" y2="3"></line><line x1="1" y1="14" x2="7" y2="14"></line><line x1="9" y1="8" x2="15" y2="8"></line><line x1="17" y1="16" x2="23" y2="16"></line></svg>
+                <b>2019</b>
+              </div>
+              <span>LEARNING</span>
+              <p>The basics and concepts</p>
+            </article>
+            <article>
+              <div class="timeline-meta">
+                <svg class="timeline-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"></path><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path></svg>
+                <b>2020</b>
+              </div>
+              <span>EXPLORING</span>
+              <p>Experimenting, find my style</p>
+            </article>
+            <article>
+              <div class="timeline-meta">
+                <svg class="timeline-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 16V8a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8"></path><line x1="2" y1="20" x2="22" y2="20"></line><line x1="12" y1="20" x2="12" y2="16"></line></svg>
+                <b>2021</b>
+              </div>
+              <span>BEGINNING</span>
+              <p>Building strong visual identity</p>
+            </article>
+            <article>
+              <div class="timeline-meta">
+                <svg class="timeline-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polygon points="2 17 12 22 22 17"></polygon><polygon points="2 12 12 17 22 12"></polygon></svg>
+                <b>2022</b>
+              </div>
+              <span>GROWING</span>
+              <p>Embracing strategy</p>
+            </article>
+            <article>
+              <div class="timeline-meta">
+                <svg class="timeline-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+                <b>2023</b>
+              </div>
+              <span>SCALING</span>
+              <p>Refining clients & impact</p>
+            </article>
+            <article>
+              <div class="timeline-meta">
+                <svg class="timeline-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+                <b>2024</b>
+              </div>
+              <span>LEADING</span>
+              <p>Building systems not just content</p>
+            </article>
+            <article>
+              <div class="timeline-meta">
+                <svg class="timeline-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                <b>2025</b>
+              </div>
+              <span>INNOVATING</span>
+              <p>More purpose, less noise</p>
+            </article>
+            <article>
+              <div class="timeline-meta">
+                <svg class="timeline-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect><rect x="9" y="9" width="6" height="6"></rect><line x1="9" y1="1" x2="9" y2="4"></line><line x1="15" y1="1" x2="15" y2="4"></line><line x1="9" y1="20" x2="9" y2="23"></line><line x1="15" y1="20" x2="15" y2="23"></line><line x1="20" y1="9" x2="23" y2="9"></line><line x1="20" y1="15" x2="23" y2="15"></line><line x1="1" y1="9" x2="4" y2="9"></line><line x1="1" y1="15" x2="4" y2="15"></line></svg>
+                <b>2026+</b>
+              </div>
+              <span>LIFELONG</span>
+              <p>Always evolving that I lead</p>
+            </article>
+          </div>
+        </div>
+      </section>
+      </div>
+
+      <div id="about-view" class="page-view">
+        <section class="about-hero-section section-dark" id="about" data-section="about">
+          <div class="section-shell about-hero-container">
+            <div class="about-hero-top">
+              <div class="about-copy reveal">
+                <p class="eyebrow eyebrow-slash">// ABOUT ME ///</p>
+                <h2>ABOUT <span>ME</span></h2>
+                <p>I'm Ezz Eldin, a passionate Graphic Designer & UI/UX Designer with over 7 years of experience turning ideas into powerful visual identities and digital experiences.</p>
+                <div class="stats-row">
+                  <div class="stats-grid">
+                    <article>
+                      <div class="stats-icon-wrapper">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                          <circle cx="12" cy="12" r="3"></circle>
+                          <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+                        </svg>
+                      </div>
+                      <strong>7+</strong>
+                      <span>YEARS EXPERIENCE</span>
+                    </article>
+                    <article>
+                      <div class="stats-icon-wrapper">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                          <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                          <circle cx="9" cy="7" r="4"></circle>
+                          <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                          <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                        </svg>
+                      </div>
+                      <strong>200+</strong>
+                      <span>PROJECTS COMPLETED</span>
+                    </article>
+                    <article>
+                      <div class="stats-icon-wrapper">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                          <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                          <circle cx="9" cy="7" r="4"></circle>
+                          <polyline points="16 11 18 13 22 9"></polyline>
+                        </svg>
+                      </div>
+                      <strong>100+</strong>
+                      <span>HAPPY CLIENTS</span>
+                    </article>
+                    <article>
+                      <div class="stats-icon-wrapper">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                          <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+                          <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+                          <line x1="6" y1="6" x2="6.01" y2="6"></line>
+                          <line x1="6" y1="18" x2="6.01" y2="18"></line>
+                        </svg>
+                      </div>
+                      <strong>30+</strong>
+                      <span>COMPANIES & BRANDS</span>
+                    </article>
+                    <article>
+                      <div class="stats-icon-wrapper">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                          <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                        </svg>
+                      </div>
+                      <strong>FREELANCE</strong>
+                      <span>WORK</span>
+                    </article>
+                    <article>
+                      <div class="stats-icon-wrapper">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                          <path d="M12 19l7-7 3 3-10 10-3-3z"></path>
+                          <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path>
+                          <path d="M2 2l7.5 1.5"></path>
+                          <path d="M14 14l3-3"></path>
+                        </svg>
+                      </div>
+                      <strong>PASSION</strong>
+                      <span>FOR DESIGN</span>
+                    </article>
+                  </div>
+                </div>
+              </div>
+              <div class="about-visual reveal" data-parallax="0.012">
+                <div class="soft-ring"></div>
+                <img src="/assets/robots/about.png" alt="Back and side view of the robot" class="page-hero-robot" />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="about section-light">
+          <div class="section-shell story-block reveal">
+            <p class="eyebrow eyebrow-slash">// MY STORY ///</p>
+            <div><h2>Design is not just what I do,<br />it's <span>who I am.</span></h2></div>
+            <p>I started my journey in 2018 with simple edits on my phone. Driven by curiosity and passion, I learned, practiced, failed, improved, and kept pushing forward. Today, I help brands stand out with thoughtful design, smooth user experiences, and creative solutions that make an impact.</p>
+          </div>
+
+          <div class="section-shell tools-section reveal">
+            <p class="eyebrow eyebrow-slash">// TOOLS I USE EVERYDAY ///</p>
+            <div class="tools-grid">
+              <article>
+                <img src="/assets/icons/tools/01_Adobe_Photoshop.png" alt="Adobe Photoshop" width="36" height="36" />
+                <span>Photoshop</span>
+              </article>
+              <article>
+                <img src="/assets/icons/tools/02_Adobe_Illustrator.png" alt="Adobe Illustrator" width="36" height="36" />
+                <span>Illustrator</span>
+              </article>
+              <article>
+                <img src="/assets/icons/tools/03_Adobe_InDesign.png" alt="Adobe InDesign" width="36" height="36" />
+                <span>InDesign</span>
+              </article>
+              <article>
+                <img src="/assets/icons/tools/04_Figma.png" alt="Figma" width="36" height="36" />
+                <span>Figma</span>
+              </article>
+              <article>
+                <img src="/assets/icons/tools/05_Adobe_XD.png" alt="Adobe XD" width="36" height="36" />
+                <span>Adobe XD</span>
+              </article>
+              <article>
+                <img src="/assets/icons/tools/06_Visual_Studio_Code.png" alt="VS Code" width="36" height="36" />
+                <span>VS Code</span>
+              </article>
+              <article>
+                <img src="/assets/icons/tools/07_Vercel.png" alt="Vercel" width="36" height="36" />
+                <span>Vercel</span>
+              </article>
+              <article>
+                <img src="/assets/icons/tools/08_GitHub.png" alt="GitHub" width="36" height="36" />
+                <span>GitHub</span>
+              </article>
+              <article>
+                <img src="/assets/icons/tools/09_Webflow.png" alt="Webflow" width="36" height="36" />
+                <span>Webflow</span>
+              </article>
+              <article>
+                <img src="/assets/icons/tools/10_Adobe_Lightroom.png" alt="Lightroom" width="36" height="36" />
+                <span>Lightroom</span>
+              </article>
+            </div>
+          </div>
+
+          <div class="section-shell about-timeline reveal">
+            <p class="eyebrow eyebrow-slash">// MY JOURNEY ///</p>
+          <div class="timeline vertical-timeline">
+            <article>
+              <div class="timeline-meta">
+                <svg class="timeline-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"></rect><line x1="12" y1="18" x2="12.01" y2="18"></line></svg>
+                <b>2018</b>
+              </div>
+              <div><span>STARTED</span><p>Edited photos on my phone.</p></div>
+            </article>
+            <article>
+              <div class="timeline-meta">
+                <svg class="timeline-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="21" x2="4" y2="14"></line><line x1="4" y1="10" x2="4" y2="3"></line><line x1="12" y1="21" x2="12" y2="12"></line><line x1="12" y1="8" x2="12" y2="3"></line><line x1="20" y1="21" x2="20" y2="16"></line><line x1="20" y1="12" x2="20" y2="3"></line><line x1="1" y1="14" x2="7" y2="14"></line><line x1="9" y1="8" x2="15" y2="8"></line><line x1="17" y1="16" x2="23" y2="16"></line></svg>
+                <b>2019</b>
+              </div>
+              <div><span>LEARNED</span><p>Apps & basic editing, cut, crop, enhance.</p></div>
+            </article>
+            <article>
+              <div class="timeline-meta">
+                <svg class="timeline-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"></path><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path></svg>
+                <b>2020</b>
+              </div>
+              <div><span>CREATED</span><p>Mirror edits, posters, logos, posts & flyers.</p></div>
+            </article>
+            <article>
+              <div class="timeline-meta">
+                <svg class="timeline-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 16V8a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8"></path><line x1="2" y1="20" x2="22" y2="20"></line><line x1="12" y1="20" x2="12" y2="16"></line></svg>
+                <b>2021</b>
+              </div>
+              <div><span>UPGRADED</span><p>Bought a laptop, learned Photoshop & more tools.</p></div>
+            </article>
+            <article>
+              <div class="timeline-meta">
+                <svg class="timeline-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polygon points="2 17 12 22 22 17"></polygon><polygon points="2 12 12 17 22 12"></polygon></svg>
+                <b>2022</b>
+              </div>
+              <div><span>SKILLED UP</span><p>Took courses, improved professionally.</p></div>
+            </article>
+            <article>
+              <div class="timeline-meta">
+                <svg class="timeline-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+                <b>2023</b>
+              </div>
+              <div><span>GOING PRO</span><p>Promoted myself, worked for restaurants & cafés.</p></div>
+            </article>
+            <article>
+              <div class="timeline-meta">
+                <svg class="timeline-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+                <b>2024</b>
+              </div>
+              <div><span>UI / UX</span><p>Learned websites, software, interfaces.</p></div>
+            </article>
+            <article>
+              <div class="timeline-meta">
+                <svg class="timeline-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                <b>2025</b>
+              </div>
+              <div><span>TEAM WORK</span><p>Worked with a company as freelancer for 2 months.</p></div>
+            </article>
+            <article>
+              <div class="timeline-meta">
+                <svg class="timeline-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect><rect x="9" y="9" width="6" height="6"></rect><line x1="9" y1="1" x2="9" y2="4"></line><line x1="15" y1="1" x2="15" y2="4"></line><line x1="9" y1="20" x2="9" y2="23"></line><line x1="15" y1="20" x2="15" y2="23"></line><line x1="20" y1="9" x2="23" y2="9"></line><line x1="20" y1="15" x2="23" y2="15"></line><line x1="1" y1="9" x2="4" y2="9"></line><line x1="1" y1="15" x2="4" y2="15"></line></svg>
+                <b>2026</b>
+              </div>
+              <div><span>AI POWER</span><p>Learned AI tools & prompting to deliver 2–3x faster.</p></div>
+            </article>
+          </div>
+        </div>
+      </section>
+      </div>
+
+      <div id="service-view" class="page-view">
+        <section class="services section-dark" id="service" data-section="service">
+        <div class="services-hero section-shell">
+          <div class="service-copy reveal">
+            <p class="eyebrow">MY SERVICE</p>
+            <h2>SERVICES THAT<br /><span>EMPOWER BRANDS.</span></h2>
+            <p>I combine creativity, strategy, and technology to deliver digital solutions that build strong identities and unforgettable experiences.</p>
+            <div class="mini-stats"><span><strong>7+</strong> Years</span><span><strong>200+</strong> Projects</span><span><strong>100+</strong> Clients</span></div>
+          </div>
+          <div class="service-visual reveal" data-parallax="0.016"><img src="/assets/robots/service.png" alt="Futuristic robot profile" class="page-hero-robot" /></div>
+        </div>
+
+        <div class="service-content section-light-angled">
+          <div class="section-shell">
+            <div class="section-heading reveal"><p class="eyebrow">MY SERVICES</p><h2>WHAT I <span>DO.</span></h2><p>End-to-end design solutions tailored to help you stand out.</p></div>
+            <div class="service-grid reveal">
+              <article><img src="/assets/icons/services/01_brand_identity.png" alt="" /><h3>BRANDING & IDENTITY</h3><p>Unique brand identities that leave a lasting impression.</p></article>
+              <article><img src="/assets/icons/services/02_ui_ux_design.png" alt="" /><h3>UI / UX DESIGN</h3><p>Intuitive interfaces that convert and delight users.</p></article>
+              <article><img src="/assets/icons/services/05_print_design.png" alt="" /><h3>PRINT DESIGN</h3><p>Brochures, posters, and print pieces that speak your brand.</p></article>
+              <article><img src="/assets/icons/services/03_social_media_design.png" alt="" /><h3>DIGITAL DESIGN</h3><p>Social media kits and digital creatives that demand attention.</p></article>
+              <article><img src="/assets/icons/services/06_packaging_design.png" alt="" /><h3>PACKAGING DESIGN</h3><p>Smart packaging that presents your product with confidence.</p></article>
+              <article><img src="/assets/icons/services/04_menu_design.png" alt="" /><h3>PRESENTATION DESIGN</h3><p>Clear, professional presentations built around your vision.</p></article>
+            </div>
+          </div>
+        </div>
+
+        <div class="projects-block section-shell">
+          <div class="projects-head reveal"><div><p class="eyebrow">MY PROJECTS</p><h2>SELECTED <span>WORK.</span></h2><p>A glimpse of real creative work across branding, print, digital, and web.</p></div><div class="slider-controls"><button class="slider-prev" type="button" aria-label="Previous projects">←</button><button class="slider-next" type="button" aria-label="Next projects">→</button></div></div>
+          <div class="project-slider reveal" tabindex="0">
+            <article class="project-card" data-project-id="plantify"><img src="/assets/projects/plantify/cover.png" alt="Plantify project" /><div><span>Brand Identity</span><h3>PLANTIFY</h3></div></article>
+            <article class="project-card" data-project-id="bite-right"><img src="/assets/projects/bite-right/cover.png" alt="Bite Right project" /><div><span>Food Brand</span><h3>BITE RIGHT</h3></div></article>
+            <article class="project-card" data-project-id="steel-gate"><img src="/assets/projects/steel-gate/cover.png" alt="Steel Gate project" /><div><span>Construction Branding</span><h3>STEEL GATE</h3></div></article>
+            <article class="project-card" data-project-id="website"><img src="/assets/projects/website/cover.png" alt="Web design project" /><div><span>UI/UX Design</span><h3>WEB EXPERIENCES</h3></div></article>
+            <article class="project-card" data-project-id="engineers-elections"><img src="/assets/projects/engineers-elections/cover.png" alt="Engineers elections project" /><div><span>Campaign Design</span><h3>ENGINEERS ELECTIONS</h3></div></article>
+            <article class="project-card" data-project-id="cards"><img src="/assets/projects/cards/cover.png" alt="Cards project" /><div><span>Print Design</span><h3>CARD SYSTEMS</h3></div></article>
+            <article class="project-card" data-project-id="hypnos"><img src="/assets/projects/hypnos/cover.png" alt="Hypnos project" /><div><span>Visual Identity</span><h3>HYPNOS</h3></div></article>
+            <article class="project-card" data-project-id="flayer-poster"><img src="/assets/projects/flayer-poster/cover.png" alt="Print project" /><div><span>Print & Poster</span><h3>PRINT COLLECTION</h3></div></article>
+            <article class="project-card" data-project-id="logo"><img src="/assets/projects/logo/cover.png" alt="Logo designs project" /><div><span>Brand Logos</span><h3>BRAND LOGOS</h3></div></article>
+            <article class="project-card" data-project-id="menu"><img src="/assets/projects/menu/cover.png" alt="Menu design project" /><div><span>Menu Design</span><h3>MENU DESIGNS</h3></div></article>
+          </div>
+          <div class="slider-dots" aria-hidden="true"></div>
+        </div>
+
+        <div class="deliver-block section-light-angled reverse-angle">
+          <div class="section-shell">
+            <div class="section-heading reveal"><p class="eyebrow">WHAT I DELIVER</p><h2>RESULTS THAT <span>MATTER.</span></h2><p>More than decoration — every output is built around purpose and impact.</p></div>
+            <div class="deliver-grid reveal">
+              <article><strong>200+</strong><span>Projects Completed</span></article><article><strong>100+</strong><span>Happy Clients</span></article><article><strong>7+</strong><span>Years Experience</span></article><article><strong>50+</strong><span>Brands Worked With</span></article><article><strong>15+</strong><span>Industries Served</span></article><article><strong>100%</strong><span>Passion & Dedication</span></article>
+            </div>
+            <div class="workflow reveal">
+              <div class="section-heading compact"><p class="eyebrow">MY PROCESS</p><h2>A CLEAR <span>WORKFLOW.</span></h2></div>
+              <div class="workflow-grid"><article><b>01</b><h3>DISCOVER</h3><p>Goals and audience.</p></article><article><b>02</b><h3>CREATE</h3><p>Concept development.</p></article><article><b>03</b><h3>DESIGN</h3><p>Tailored visual systems.</p></article><article><b>04</b><h3>DEVELOP</h3><p>Precise execution.</p></article><article><b>05</b><h3>DELIVER</h3><p>Final files with impact.</p></article></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      </div>
+
+      <div id="contact-view" class="page-view">
+        <section class="contact section-dark" id="contact" data-section="contact">
+        <div class="section-shell contact-hero">
+          <div class="contact-hand reveal" data-parallax="0.014"><img src="/assets/robots/contact.png" alt="Robotic hand pointing toward the contact content" class="page-hero-robot" /></div>
+          <div class="contact-hero-copy reveal"><p class="eyebrow">GET IN TOUCH</p><h2>LET'S BUILD SOMETHING<br /><span>EXTRAORDINARY.</span></h2><p>I'm always open to discussing new opportunities, creative projects, and collaborations. Let's connect and turn your ideas into powerful digital experiences.</p><a class="hud-button hud-button-solid" href="#contact-form">LET'S TALK <span>→</span></a></div>
+        </div>
+
+        <div class="contact-content section-light-angled" id="contact-form">
+          <div class="section-shell contact-grid">
+            <div class="contact-info reveal">
+              <p class="eyebrow">LET'S CONNECT</p>
+              <h2>I'D LOVE TO HEAR<br /><span>FROM YOU.</span></h2>
+              <p>Have a project in mind or just want to say hello? Fill out the form or reach me directly.</p>
+              <div class="contact-cards">
+                <a href="mailto:ezz.ali9939@gmail.com"><img src="/assets/icons/social/email.png" alt="" /><span><small>EMAIL</small>ezz.ali9939@gmail.com</span></a>
+                <a href="tel:+201044237939"><img src="/assets/icons/social/phone.png" alt="" /><span><small>PHONE</small>+20 1044237939</span></a>
+                <a href="https://maps.google.com/?q=Alexandria,+Egypt" target="_blank" rel="noreferrer"><img src="/assets/icons/social/location.png" alt="" /><span><small>LOCATION</small>Alexandria, Egypt</span></a>
+              </div>
+            </div>
+
+            <form class="contact-form reveal" novalidate>
+              <label>YOUR NAME<input type="text" name="name" placeholder="Enter your name" required /></label>
+              <label>EMAIL ADDRESS<input type="email" name="email" placeholder="Enter your email" required /></label>
+              <label>SUBJECT<input type="text" name="subject" placeholder="What's this about?" required /></label>
+              <label>MESSAGE<textarea name="message" rows="6" placeholder="Tell me about your project..." required></textarea></label>
+              <button class="hud-button hud-button-solid" type="submit">SEND MESSAGE <span>↗</span></button>
+              <p class="form-status" role="status" aria-live="polite"></p>
+            </form>
+          </div>
+        </div>
+
+        <div class="section-shell direct-channels reveal">
+          <div><p class="eyebrow">DIRECT CHANNELS</p><h2>CONNECT <span>WITH ME.</span></h2></div>
+          <div class="channel-links">
+            <a href="https://www.instagram.com/ez.ali0?igsh=MXZoNTZxOWt6eGE4OQ==" target="_blank" rel="noreferrer"><img src="/assets/icons/social/instagram.png" alt="" /><span>Instagram<small>@ez.ali0</small></span>↗</a>
+            <a href="https://www.linkedin.com/in/ez-ali-7466323a2" target="_blank" rel="noreferrer"><img src="/assets/icons/social/linkedin.png" alt="" /><span>LinkedIn<small>Ezz Eldin</small></span>↗</a>
+            <a href="mailto:ezz.ali9939@gmail.com"><img src="/assets/icons/social/email.png" alt="" /><span>Email<small>ezz.ali9939@gmail.com</small></span>↗</a>
+          </div>
+        </div>
+
+        <div class="section-shell let-create-together reveal">
+          <div class="cta-left">
+            <p class="eyebrow">// LET'S CREATE TOGETHER</p>
+            <h2>OPEN FOR <span>PROJECTS</span> &<br />COLLABORATIONS</h2>
+            <p class="cta-body">I partner with ambitious brands and individuals to craft digital experiences that are not only beautiful but also strategic and results-driven.</p>
+            <div class="cta-tags">
+              <span>✦ UI/UX Design</span>
+              <span>✦ Web Development</span>
+              <span>✦ Creative Direction</span>
+              <span>✦ Branding & Identity</span>
+            </div>
+          </div>
+          <div class="cta-right">
+            <div class="hud-frame cta-card">
+              <h3>LET'S TURN YOUR IDEA INTO IMPACT.</h3>
+              <p>Great ideas deserve great execution. Let's build something meaningful together.</p>
+              <a class="hud-button hud-button-solid" href="mailto:ezz.ali9939@gmail.com?subject=Project%20Inquiry">START A PROJECT <span>→</span></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="section-shell footer-grid-layout">
+        <div class="footer-left">
+          <div class="footer-logo">
+            <img src="/assets/logo/symbol-white.png" alt="Ezz Eldin symbol" />
+            <strong>EZZ ELDIN</strong>
+          </div>
+          <p class="footer-tagline">Crafting digital experiences that inspire,<br />engage, and deliver results.</p>
+        </div>
+        <div class="footer-center">
+          <h3>LET'S BUILD SOMETHING<br /><span>MEANINGFUL TOGETHER.</span></h3>
+        </div>
+        <div class="footer-right">
+          <div class="footer-social-title">CONNECT</div>
+          <div class="footer-social-links">
+            <a href="https://www.instagram.com/ez.ali0?igsh=MXZoNTZxOWt6eGE4OQ==" target="_blank" rel="noreferrer" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+            </a>
+            <a href="https://www.linkedin.com/in/ez-ali-7466323a2" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+            </a>
+            <a href="mailto:ezz.ali9939@gmail.com" aria-label="Email">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© <span id="current-year"></span> Ezz Eldin. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Project Details Glassmorphic Modal -->
+    <div id="project-modal" class="project-modal" aria-hidden="true" role="dialog">
+      <div class="project-modal-backdrop"></div>
+      <div class="project-modal-wrapper">
+        <div class="project-modal-header">
+          <div class="project-modal-title-area">
+            <h3 id="modal-project-title">Project Name</h3>
+            <span id="modal-project-category">Category</span>
+          </div>
+          <button id="modal-close-btn" class="project-modal-close" aria-label="Close modal" type="button">×</button>
+        </div>
+        <div class="project-modal-body">
+          <div class="project-modal-info">
+            <p id="modal-project-description" class="project-modal-description">Project description goes here...</p>
+            <div class="project-modal-meta-grid">
+              <div class="project-modal-meta-item">
+                <small>CLIENT</small>
+                <span id="modal-project-client">Personal Project</span>
+              </div>
+              <div class="project-modal-meta-item">
+                <small>YEAR</small>
+                <span id="modal-project-year">2026</span>
+              </div>
+              <div class="project-modal-meta-item">
+                <small>SERVICES</small>
+                <span id="modal-project-services">Visual Identity</span>
+              </div>
+              <div class="project-modal-meta-item">
+                <small>TOOLS</small>
+                <span id="modal-project-tools">Photoshop, Figma</span>
+              </div>
+            </div>
+          </div>
+          <div id="modal-project-gallery" class="project-modal-gallery">
+            <!-- Images will be inserted here dynamically -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Image Lightbox Modal for Zooming -->
+    <div id="lightbox-modal" class="lightbox-modal" aria-hidden="true" role="dialog">
+      <div class="lightbox-content">
+        <button id="lightbox-close-btn" class="lightbox-close" aria-label="Close light box">×</button>
+        <img id="lightbox-img" class="lightbox-img" src="" alt="Fullscreen view" />
+      </div>
+    </div>
+
+    <div class="page-transition-overlay" aria-hidden="true">
+      <div class="transition-scanline"></div>
+      <div class="transition-logo">
+        <img src="/assets/logo/symbol-white.png" alt="" />
+        <span>EZZ ELDIN</span>
+      </div>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

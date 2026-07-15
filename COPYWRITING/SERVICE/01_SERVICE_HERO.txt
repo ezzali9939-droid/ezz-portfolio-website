@@ -1,0 +1,34 @@
+Page: Service
+Section: Hero
+
+Logo:
+EZ ALI
+Graphic & UI/UX Designer
+
+Navbar:
+Home
+About
+Service
+Contact
+
+Button:
+LET'S TALK
+
+Small label:
+MY SERVICE
+
+Headline:
+SERVICES THAT
+EMPOWER BRANDS.
+
+Body:
+I combine creativity, strategy, and technology to deliver digital solutions that build strong identities and unforgettable experiences.
+
+Hero stats:
+7+ YEARS EXPERIENCE
+200+ PROJECTS COMPLETED
+100+ HAPPY CLIENTS
+PASSION FOR DESIGN
+
+Important:
+Hero robot must be the latest service robot reference, mirrored so it faces left.

@@ -1,0 +1,30 @@
+Page: Service
+Section: My Services
+
+Small label:
+MY SERVICES
+
+Heading:
+WHAT I DO
+
+Body:
+End-to-end design solutions tailored to help you stand out.
+
+Service cards:
+BRANDING & IDENTITY
+Crafting unique brand identities that leave a lasting impression.
+
+UI / UX DESIGN
+Designing intuitive interfaces that convert and delight users.
+
+PRINT DESIGN
+Beautiful print designs, from brochures to posters that speak your brand.
+
+DIGITAL DESIGN
+Social media kits, banners, and digital creatives that drive attention.
+
+PACKAGING DESIGN
+Designing smart packaging that puts your product in the right light.
+
+PRESENTATION DESIGN
+Professional presentations that communicate your vision clearly.

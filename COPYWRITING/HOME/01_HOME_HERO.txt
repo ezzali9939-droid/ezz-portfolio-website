@@ -1,0 +1,41 @@
+Page: Home
+Section: Hero
+
+Logo:
+EZ ALI
+Graphic & UI/UX Designer
+
+Navbar:
+Home
+About
+Service
+Contact
+
+Button:
+LET'S TALK
+
+Small label:
+CREATIVE DESIGNER
+
+Main headline:
+I DESIGN
+VISUALS THAT
+SPEAK POWER.
+
+Body text:
+I create powerful visual narratives that amplify brands and make ideas unforgettable impact.
+
+Primary CTA:
+EXPLORE MY WORLD
+
+Side links:
+Instagram — https://www.instagram.com/ez.ali0?igsh=MXZoNTZxOWt6eGE4OQ==
+LinkedIn — https://www.linkedin.com/in/ez-ali-7466323a2
+
+Micro text:
+SCROLL TO EXPLORE
+
+Side tags:
+BRANDING & IDENTITY
+UI/UX & WEB DESIGN
+CREATIVE THINKING

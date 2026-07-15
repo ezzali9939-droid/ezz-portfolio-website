@@ -1,0 +1,28 @@
+Page: Service
+Section: My Projects
+
+Small label:
+MY PROJECTS
+
+Heading:
+SELECTED WORK
+
+Body:
+A glimpse of creativity. View more of our work in action and get inspired.
+
+Project slider navigation:
+Left arrow
+Right arrow
+Pagination dots
+
+Example project cards:
+Luxury Brand Identity — Branding
+Skin Perfume Packaging — Packaging Design
+Finance Dashboard 2.0 — UI/UX Design
+Rise High Zero Sugar — Post Design
+Tourist Mobile Exchange — UI/UX Design
+
+Important:
+This section sits between My Services and What I Deliver.
+It must be horizontal/linear with left and right arrows.
+The page grows vertically, not horizontally.

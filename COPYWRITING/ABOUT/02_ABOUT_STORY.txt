@@ -1,0 +1,14 @@
+Page: About
+Section: My Story
+
+Small label:
+MY STORY
+
+Headline:
+Design is not just what I do,
+it's who I am.
+
+Body:
+I started my journey in 2018 with simple edits on my phone.
+Driven by curiosity and passion, I learned, practiced, failed, improved, and kept pushing forward.
+Today, I help brands stand out with thoughtful design, smooth user experiences, and creative solutions that make an impact.

@@ -1,0 +1,32 @@
+Page: About
+Section: Hero
+
+Logo:
+EZ ALI
+Graphic & UI/UX Designer
+
+Navbar:
+Home
+About
+Service
+Contact
+
+Button:
+LET'S TALK
+
+Small label:
+ABOUT ME
+
+Main title:
+ABOUT ME
+
+Hero body:
+I'm Ez Ali, a passionate Graphic Designer & UI/UX Designer with over 7 years of experience turning ideas into powerful visual identities and digital experiences.
+
+Hero stats:
+7+ YEARS EXPERIENCE
+200+ PROJECTS COMPLETED
+100+ HAPPY CLIENTS
+30+ COMPANIES & BRANDS
+FREELANCE WORK
+PASSION FOR DESIGN
